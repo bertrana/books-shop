@@ -41,10 +41,13 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Demo webpack'
+      title: 'Books shop'
     })
   ],
   devServer: {
+    // static: {
+    //   directory: path.join(__dirname, 'public'),
+    // },
     compress: true,
     port: 9000,
   },
